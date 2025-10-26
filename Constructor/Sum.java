@@ -1,11 +1,9 @@
-package Constructor;
-
 import java.util.Scanner;
 
-public class Default {
+public class Sum {
     int a, b, sum;
 
-    Default() {
+    Sum() {
         a = 0;
         b = 0;
         sum = 0;
@@ -29,7 +27,7 @@ public class Default {
     }
 
     public static void main(String[] args) {
-        Default obj = new Default();
+        Sum obj = new Sum();
         obj.input();
         obj.cal();
         obj.display();
